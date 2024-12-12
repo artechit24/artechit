@@ -1,0 +1,153 @@
+body {
+  background: #181A1C;
+  color: #fff; }
+  body span {
+    color: #FFCC00; }
+  body h2 {
+    text-transform: uppercase; }
+  body h4 {
+    text-transform: uppercase; }
+
+.navbar img {
+  width: 30px;
+  padding: 0px; }
+
+.navbar .navbar-brand h2 {
+  text-transform: lowercase;
+  font-weight: bold; }
+
+.navbar h2 {
+  margin-left: 5px;
+  margin-top: 5px;
+  text-decoration: underline;
+  color: #FFCC00; }
+
+.navbar .nav-item {
+  padding-left: 1rem;
+  text-transform: uppercase; }
+  .navbar .nav-item .nav-link:hover {
+    color: #FFCC00; }
+
+#home-section {
+  position: relative;
+  background: url(../img/home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 500px; }
+  #home-section .text {
+    margin-top: 200px;
+    text-transform: uppercase; }
+  #home-section h1 {
+    text-transform: uppercase; }
+  #home-section .overlay {
+    background: rgba(11, 12, 12, 0.7);
+    min-height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#about {
+  background: #181A1C; }
+
+#services {
+  position: relative;
+  background: url(../img/services.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px; }
+  #services .fa {
+    margin-bottom: 10px;
+    font-size: 80px;
+    color: #FFCC00; }
+  #services .overlay {
+    background: rgba(11, 12, 12, 0.7);
+    min-height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#protfolio {
+  background: #FFCC00; }
+  #protfolio h2 {
+    text-transform: uppercase;
+    color: #000; }
+  #protfolio span {
+    color: #fff; }
+
+#why {
+  background: #181A1C; }
+  #why .fa {
+    margin-bottom: 10px;
+    font-size: 80px;
+    color: #FFCC00; }
+
+#plans {
+  background: #FFCC00;
+  color: #fff; }
+  #plans span {
+    color: #000; }
+  #plans .card {
+    background: #5F5119; }
+  #plans .list-group-item {
+    background: #5F5119;
+    border: none; }
+
+#contact {
+  position: relative;
+  background: url(../img/contact.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px; }
+  #contact .overlay {
+    background: rgba(11, 12, 12, 0.7);
+    min-height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #contact .card {
+    background: rgba(11, 12, 12, 0.7); }
+  #contact .form-control {
+    background: rgba(11, 12, 12, 0.7); }
+
+#here {
+  background: #181A1C; }
+
+#footer {
+  background: #030303; }
+
+@media (max-width: 876px) {
+  #home-section h1 {
+    font-size: 2.5rem; } }
+
+@media (max-width: 576px) {
+  #home-section h1 {
+    font-size: 2rem; } }
+
+@media (max-width: 876px) {
+  #services {
+    height: 1100px; } }
+
+@media (max-width: 576px) {
+  #services {
+    height: 1300px; } }
+
+@media (max-width: 400px) {
+  #services {
+    height: 1400px; } }
+
+@media (max-width: 350px) {
+  #services {
+    height: 1700px; } }
+
+@media (max-width: 576px) {
+  #contact {
+    height: 1150px; } }
